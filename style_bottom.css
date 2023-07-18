@@ -1,0 +1,228 @@
+.bottom_categoryes {
+    background-color: #222224;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bottom_categoryes p {
+    font-size: 14px;
+    color: #FBFBFB;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.bottom_categoryes_item {
+    text-align: center;
+}
+
+.bottom_categoryes h2 {
+    padding-top: 28px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom_form {
+    height: 448px;
+    display: flex;
+    align-items: center;
+    background-image: url(img/subscribe.png);
+    background-repeat: no-repeat;
+
+
+    background-color: #f4f4f4;
+
+}
+
+.bottom_form_item {
+    width: 50%;
+    text-align: center;
+}
+
+.bottom_form_item1 {
+    padding-right: 25%;
+
+}
+
+.bottom_form_item1 p span {
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom_form_item2 {
+    padding-left: 10%;
+}
+
+.form {
+    padding-top: 32px;
+}
+
+.bottom_form_item1 p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom_form_item2 h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+    /* 40.128px */
+}
+
+.bottom_form_item2 p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.subemail {
+    width: 70%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 22px;
+    padding-left: 22px;
+    border: 0;
+    border-radius: 50px 0 0 50px;
+    height: 40px;
+    background-color: #E1E1E1;
+}
+
+
+.subbutton {
+    width: 30%;
+    background-color: #E05C6E;
+    border: 0;
+    color: white;
+    border-radius: 0 50px 50px 0;
+}
+
+.footer {
+    background-color: #222224;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.icon path {
+    --colorfon: white;
+    --colorfon1: black;
+}
+
+.icon:hover path {
+    --colorfon: #F16D7F;
+    --colorfon1: white;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .bottom_categoryes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom_categoryes_item {
+        width: 360px;
+    }
+
+    .bottom_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 693px;
+        background-position: -100px 300px;
+    }
+
+    .bottom_form_item1 {
+        padding-right: 0;
+        padding-top: 64px;
+        width: 356px;
+    }
+
+    .bottom_form_item2 {
+        padding-left: 0;
+        padding-top: 48px;
+        width: 356px;
+    }
+
+    .footer {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .bottom_categoryes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bottom_categoryes_item {
+        max-width: 348px;
+    }
+
+    .bottom_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        background-position: 0px 160px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 100px;
+    }
+
+    .bottom_form_item1 {
+        padding-right: 0;
+        padding-top: 64px;
+    }
+
+    .bottom_form_item2 {
+        padding-left: 0;
+        padding-top: 48px;
+    }
+
+    .bottom_form_item {
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons {
+        padding-top: 43px;
+        padding-bottom: 40px;
+
+    }
+
+    .bottom_form_item {
+        max-width: 341px;
+    }
+}
